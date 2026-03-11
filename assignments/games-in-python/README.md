@@ -1,19 +1,40 @@
 
-# 🎮 Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
-Build the classic word-guessing game using Python strings, loops, and user input.
+## 🎯 Objective
 
-## � What You'll Build
+Build a classic word‑guessing Hangman game using Python. This project reinforces string manipulation, loops, conditionals, and user input handling.
 
-Create a Hangman game where players guess letters to reveal a hidden word before running out of attempts.
+## 📝 Tasks
 
-**Skills practiced:** String manipulation, loops, conditionals, random selection
+### 🛠️ Game Setup and Word Selection
 
-## ✅ Must Have's
+#### Description
+Create the foundation for the Hangman game by defining a list of possible words and selecting one at random at the start of each round.
 
-Your game must:
-- Randomly select words from a predefined list
-- Accept letter guesses and show current progress (_ _ _ format)
-- Track incorrect guesses remaining
-- End when word is guessed or attempts exhausted
-- Display win/lose messages
+#### Requirements
+Completed program should:
+
+- Define a predefined list of words in the code (minimum 5 words).
+- Randomly select one word from that list when the game begins.
+- Initialize variables to track correctly guessed letters and remaining attempts.
+
+
+### 🛠️ Gameplay Loop and Win/Loss Conditions
+
+#### Description
+Implement the main loop that accepts user guesses, updates game state, and checks for win or loss conditions.
+
+#### Requirements
+Completed program should:
+
+- Prompt the player to guess a single letter at a time.
+- Display the current progress of the word using underscores for unknown letters (e.g., `_ a _ g _ a _`).
+- Keep track of letters that have already been guessed and prevent duplicate input.
+- Deduct an attempt for each incorrect guess and show the number of attempts remaining.
+- End the game with a congratulatory message if the word is fully revealed or a losing message when attempts are exhausted.
+- Optionally, allow the player to play again or quit after a round ends.
+
+
+> ⚠️ **Note:** Keep the user interface simple (text‑based) so that students can focus on the logic rather than graphics.
+
